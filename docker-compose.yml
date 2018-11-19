@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx:
-    image: nginx:1.9.12
+    image: nginx:latest
     container_name: lemp-nginx
     ports:
      - "80:80"
